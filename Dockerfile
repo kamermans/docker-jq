@@ -1,6 +1,7 @@
 FROM alpine
 
 MAINTAINER Steve Kamerman <https://github.com/kamermans>
+LABEL Description="Portable jq instance"
 
 ADD https://github.com/stedolan/jq/releases/download/jq-1.3/jq-linux-x86_64 /usr/local/bin/jq-1.3
 ADD https://github.com/stedolan/jq/releases/download/jq-1.4/jq-linux-x86_64 /usr/local/bin/jq-1.4
